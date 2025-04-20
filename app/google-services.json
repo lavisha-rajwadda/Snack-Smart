@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69783787775",
+    "project_id": "firstapplication-2b368",
+    "storage_bucket": "firstapplication-2b368.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69783787775:android:b1c1927da4ed03276854ca",
+        "android_client_info": {
+          "package_name": "com.lavisha.firstapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH-NnhxYiv-JM_EfmjbIf6STTPIGYh0L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

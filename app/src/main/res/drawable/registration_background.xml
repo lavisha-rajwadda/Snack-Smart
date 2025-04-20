@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- Background Layer 1: Gradient background -->
+        <item>
+                <shape android:shape="rectangle">
+                        <!-- Using gradient defined in front_background -->
+                        <gradient
+                            android:startColor="@drawable/front_background"
+                            android:endColor="@android:color/white"
+                            android:angle="45"/>
+                </shape>
+        </item>
+
+        <!-- Background Layer 2: White square box for text -->
+        <item
+            android:left="30dp"
+            android:right="30dp"
+            android:top="50dp"
+            android:bottom="50dp">
+                <shape android:shape="rectangle">
+                        <solid android:color="@android:color/white"/>
+                        <corners android:radius="16dp"/> <!-- Optional: Rounded corners -->
+                </shape>
+        </item>
+
+</layer-list>
